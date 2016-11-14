@@ -1,0 +1,16 @@
+{
+  "name": "status-code",
+  "version": "1.0.0",
+  "description": "Now, run `npm install` to install the dependencies.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mthpvg",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "serve-favicon": "^2.3.0"
+  }
+}
