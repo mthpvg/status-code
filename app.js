@@ -20,7 +20,7 @@ var articles = require('./routes/articles');
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - HIDING TECH STACK
 app.disable('x-powered-by');
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -SETTING PORT
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3001);
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - FAVICON
 app.use(favicon(path.join(__dirname, 'public', 'favicon.png')));
 //- - - - - - - - -TRUSTING OUR NGINX REVERSE PROXY FOR CLIENT'S IP FOR EXAMPLE
