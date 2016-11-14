@@ -9,8 +9,9 @@ var router = express.Router();
 //-----------------------------------------------------------------------------
 router.get('/:id', function(req, res, next) {
   res.send(
-    'req.params=' + JSON.stringify(req.params, null, 2) + ', ' +
-    'req.query=' + JSON.stringify(req.query, null, 2)
+    '<div>' + new Date() + '</div>' +
+    '<div>req.params=' + JSON.stringify(req.params, null, 2) + '</div>' +
+    '<div>req.query=' + JSON.stringify(req.query, null, 2) + '</div>'
   );
 });
 //-----------------------------------------------------------------------------
